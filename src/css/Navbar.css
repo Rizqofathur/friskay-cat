@@ -1,0 +1,21 @@
+nav {
+  position: relative;
+  z-index: 100;
+}
+header {
+  padding: 1.75em;
+}
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.Image-Logo {
+  transform: scale(0.9);
+}
+.Menu {
+  display: flex;
+  align-items: center;
+}
+.Hamburger-Menu {
+  transform: scale(1.3);
+}

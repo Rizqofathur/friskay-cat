@@ -1,0 +1,21 @@
+.Illustration-Section {
+  position: relative;
+  top: -66px;
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+.Illustration-Wrapper {
+  border-radius: 100%;
+  background-color: rgb(255, 255, 255);
+  height: 700px;
+  width: 700px;
+}
+.Illustration-Image {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+}
+.Illustration-Svg {
+  max-width: 400px;
+}

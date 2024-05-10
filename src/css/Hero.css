@@ -1,0 +1,46 @@
+.Hero {
+  margin-top: 5.5rem;
+  position: relative;
+  z-index: 5;
+}
+h1 {
+  font-weight: bold;
+  font-size: 2.8em;
+}
+h1,
+p {
+  font-family: Inter, sans-serif;
+  text-align: center;
+}
+
+p {
+  margin-top: 1.75rem;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 150%;
+}
+.Bonkers-Text {
+  display: flex;
+  justify-content: center;
+  margin: 1rem auto;
+}
+.Primary-Button {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.1rem;
+}
+.Hero-Btn {
+  background-color: var(--btn-primary);
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: bold;
+  font-family: Inter, sans-serif;
+  font-size: 2.6rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.Hero-Btn:hover {
+  background-color: var(--btn-primary-hover);
+}
