@@ -4,12 +4,13 @@
   width: 100%;
 }
 .Illustration-Section {
+  display: flex;
+  height: 700px;
+  justify-content: center;
   position: relative;
   top: -66px;
-  display: flex;
-  justify-content: center;
-  height: 700px;
   width: 1200px;
+  z-index: 1;
 }
 .Illustration-Wrapper {
   border-radius: 100%;
