@@ -2,6 +2,10 @@ import '../css/Navbar.css';
 import logo from '../../public/friskay.svg';
 import menu from '../../public/Hamburger-Menu.svg';
 
+function handleNav() {
+  console.log('nav clicked');
+}
+
 const Navbar = () => {
   return (
     <nav>
@@ -14,7 +18,7 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          <div className="Menu">
+          <div className="Menu" onClick={handleNav}>
             <img src={menu} alt="menu" className="Hamburger-Menu" />
           </div>
         </div>

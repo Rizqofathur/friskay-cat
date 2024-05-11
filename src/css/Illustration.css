@@ -1,9 +1,15 @@
+.Image-Container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
 .Illustration-Section {
   position: relative;
   top: -66px;
   display: flex;
   justify-content: center;
   height: 700px;
+  width: 1200px;
 }
 .Illustration-Wrapper {
   border-radius: 100%;
