@@ -1,13 +1,27 @@
 nav {
   position: relative;
   z-index: 100;
+  font-family: Inter, sans-serif;
 }
 header {
   padding: 1.75em;
+  position: relative;
 }
 .Wrapper {
   display: flex;
+  align-items: center;
   justify-content: space-between;
+}
+.Logo-Wrapper {
+  display: flex;
+  margin: auto;
+  gap: 10px;
+  align-items: center;
+}
+.line {
+  width: 6px;
+  height: 40px;
+  background-color: rgb(228, 228, 228);
 }
 .Image-Logo {
   transform: scale(0.9);
@@ -16,6 +30,82 @@ header {
   display: flex;
   align-items: center;
 }
-.Hamburger-Menu {
-  transform: scale(1.3);
+.Menu ul {
+  display: flex;
+  gap: 2em;
+}
+.Menu ul li a {
+  color: rgb(5, 5, 5);
+  font-weight: 600;
+  font-size: 1.1em;
+  text-decoration: none;
+}
+.Menu-toggle {
+  display: none;
+  flex-direction: column;
+  height: 20px;
+  justify-content: space-between;
+  position: relative;
+}
+.Menu-toggle span {
+  display: block;
+  width: 28px;
+  height: 3px;
+  background-color: black;
+  border-radius: 3px;
+  transition: 0.5s;
+}
+.Menu-toggle input {
+  position: absolute;
+  width: 40px;
+  height: 28px;
+  left: -10px;
+  top: -7px;
+  opacity: 0;
+  cursor: pointer;
+  z-index: 6;
+}
+.Menu-toggle input:checked ~ span:nth-child(2) {
+  transform-origin: 0 0;
+  transform: rotate(46deg) translate(-1px, -1px);
+}
+.Menu-toggle input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scale(0);
+}
+.Menu-toggle input:checked ~ span:last-child {
+  transform-origin: 0 100%;
+  transform: rotate(-44deg) translate(-1px, 0);
+}
+
+/* Hamburger Menu Animation */
+@media screen and (max-width: 576px) {
+  header.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .Menu ul {
+    position: fixed;
+    right: 0;
+    top: 0px;
+    padding: 120px 28px 0 5px;
+    width: 40vw;
+    text-align: right;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    transform: translateX(100%);
+    transition: all 0.7s;
+  }
+  .Menu ul.slide {
+    transform: translateX(0);
+  }
+  .Menu ul li a {
+    font-weight: bolder;
+    font-size: 1.5em;
+  }
+  .Menu-toggle {
+    display: flex;
+  }
 }
