@@ -3,10 +3,10 @@ import Illustration from './Illustration';
 
 const Header = () => {
   return (
-    <header className="Header">
+    <div className="Header">
       <Hero />
       <Illustration />
-    </header>
+    </div>
   );
 };
 
