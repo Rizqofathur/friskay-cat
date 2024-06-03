@@ -95,10 +95,10 @@
     right: 0;
     top: 0px;
     padding: 120px 28px 0 5px;
-    width: 40vw;
+    width: 40dvw;
     text-align: right;
     flex-direction: column;
-    height: 100vh;
+    height: 100dvh;
     background-color: rgb(255, 255, 255);
     transform: translateX(100%);
     transition: all 0.7s;
