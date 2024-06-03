@@ -40,7 +40,7 @@ const Navbar = () => {
         </div>
         <div className="Menu-toggle-wrapper">
           <div className="Menu-toggle" onClick={handleNav}>
-            <input type="checkbox" onChange={handleNav} />
+            <input type="checkbox" />
             <span></span>
             <span></span>
             <span></span>

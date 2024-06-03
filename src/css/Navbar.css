@@ -50,6 +50,7 @@
   height: 20px;
   justify-content: space-between;
   position: relative;
+  z-index: 10;
 }
 .Menu-toggle span {
   display: block;
@@ -98,17 +99,19 @@
     flex-direction: column;
     height: 100dvh;
     background-color: rgb(255, 255, 255);
-    transition: all 0.7s;
+    transition: right 0.9s ease;
+    z-index: 9;
   }
   .Menu ul.slide {
-    right: 0;
-    transition: all 0.7s;
+    right: 0 !important;
+    transition: right 0.9s ease;
   }
   .Menu ul li a {
     font-weight: bolder;
     font-size: 1.5em;
   }
   .Menu-toggle {
+    z-index: 10;
     display: flex;
   }
 }
