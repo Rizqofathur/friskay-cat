@@ -82,7 +82,6 @@
   transform-origin: 0 100%;
   transform: rotate(-44deg) translate(-1px, 0);
 }
-
 /* Hamburger Menu Animation */
 @media screen and (max-width: 600px) {
   header.Nav-menu {
