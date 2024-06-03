@@ -102,6 +102,7 @@
   }
   .Menu ul.slide {
     right: 0;
+    transition: all 0.7s;
   }
   .Menu ul li a {
     font-weight: bolder;
