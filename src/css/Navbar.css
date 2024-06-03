@@ -4,11 +4,11 @@
   font-family: Inter, sans-serif;
 }
 .Nav-menu {
-  max-width: 1600px;
   padding: 1.75em;
   position: relative;
 }
 .Wrapper {
+  max-width: 1600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -91,7 +91,7 @@
   }
   .Menu ul {
     position: fixed;
-    right: 0;
+    right: -100%;
     top: 0px;
     padding: 120px 28px 0 5px;
     width: 40dvw;
@@ -99,11 +99,10 @@
     flex-direction: column;
     height: 100dvh;
     background-color: rgb(255, 255, 255);
-    transform: translateX(100%);
     transition: all 0.7s;
   }
   .Menu ul.slide {
-    transform: translateX(0);
+    right: 0;
   }
   .Menu ul li a {
     font-weight: bolder;
