@@ -1,5 +1,6 @@
 import '../css/Hero.css';
 import bonkers from '../../public/Bonkers.svg';
+import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {
   return (
@@ -19,11 +20,7 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <div className="Primary-Button">
-          <a className="Hero-Btn" href="#">
-            Get Bonkers
-          </a>
-        </div>
+        <PrimaryButton />
       </div>
     </section>
   );

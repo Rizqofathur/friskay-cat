@@ -4,6 +4,7 @@
   font-family: Inter, sans-serif;
 }
 .Nav-menu {
+  max-width: 1600px;
   padding: 1.75em;
   position: relative;
 }

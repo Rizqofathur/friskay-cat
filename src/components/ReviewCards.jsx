@@ -6,6 +6,9 @@ const ReviewCards = () => {
     <section className="review-cards">
       <div className="cards">
         <Card />
+        <Card />
+        <Card />
+        <Card />
       </div>
     </section>
   );

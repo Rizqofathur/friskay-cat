@@ -1,0 +1,15 @@
+.Hero-Btn {
+  background-color: var(--btn-primary);
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  padding: 1rem;
+  font-weight: bold;
+  font-family: Inter, sans-serif;
+  font-size: 1.6rem;
+  text-decoration: none;
+  transition: 0.2s;
+}
+.Hero-Btn:hover {
+  background-color: var(--btn-primary-hover);
+}

@@ -1,5 +1,5 @@
 .Card {
-  width: 380px;
+  max-width: 380px;
   background-color: white;
   border-radius: 12px;
 }
@@ -14,7 +14,7 @@
   height: 30px;
 }
 .Card-inner {
-  width: 336px;
+  max-width: 336px;
   padding: 6px 38px 0 38px;
 }
 .Card-text-review {
@@ -40,4 +40,12 @@
 .Card-profile-instance {
   font-size: 0.9rem;
   margin-top: 4px;
+}
+@media screen and (min-width: 900px) {
+  .Card {
+    max-width: 360px;
+  }
+  .Card-inner {
+    max-width: 316px;
+  }
 }
