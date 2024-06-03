@@ -7,6 +7,7 @@ const Navbar = () => {
 
   function handleNav() {
     setNav(!nav);
+    console.log('Nav clicked!');
   }
   const isNav = nav ? 'slide' : {};
   return (
