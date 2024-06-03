@@ -84,7 +84,7 @@
 }
 
 /* Hamburger Menu Animation */
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   header.Nav-menu {
     display: flex;
     justify-content: space-between;

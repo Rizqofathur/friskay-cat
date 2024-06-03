@@ -4,9 +4,9 @@ import { useState } from 'react';
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
+
   function handleNav() {
     setNav(!nav);
-    console.log('Aku kangen Xena');
   }
   const isNav = nav ? 'slide' : {};
   return (
