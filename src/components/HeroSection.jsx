@@ -7,11 +7,11 @@ const Hero = () => {
       <div className="Main-Content">
         <div className="Hero-Wrapper">
           <div className="Hero-Text">
-            <h1>Your cat will go</h1>
+            <h1 className="Hero-text-header">Your cat will go</h1>
             <div className="Bonkers-Text">
               <img className="Bonkers" src={bonkers} alt="bonkers" />
             </div>
-            <p>
+            <p className="Hero-text-caption">
               ..for the world’s best testing cat food,
               <br /> sourced with only the finest ingredients. <br />
               Made with love from the heart of <br />

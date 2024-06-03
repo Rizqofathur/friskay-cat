@@ -6,17 +6,17 @@
   position: relative;
   z-index: 5;
 }
-h1 {
+.Hero-text-header {
   font-weight: bold;
   font-size: 2.8em;
 }
-h1,
-p {
+.Hero-text-header,
+.Hero-text-caption {
   font-family: Inter, sans-serif;
   text-align: center;
 }
 
-p {
+.Hero-text-caption {
   margin-top: 1.75rem;
   font-weight: 500;
   font-size: 1.1em;

@@ -1,0 +1,43 @@
+.Card {
+  width: 380px;
+  background-color: white;
+  border-radius: 12px;
+}
+.Card-container {
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  justify-content: center;
+}
+.quote-img {
+  width: 34px;
+  height: 30px;
+}
+.Card-inner {
+  width: 336px;
+  padding: 6px 38px 0 38px;
+}
+.Card-text-review {
+  line-height: 1.5;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+.Card-profile {
+  margin: 32px 0 16px 0;
+  display: flex;
+  gap: 10px;
+}
+.Card-img {
+  width: 54px;
+  height: 54px;
+  border-radius: 100%;
+}
+.Card-profile-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 2px 0;
+}
+.Card-profile-instance {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}

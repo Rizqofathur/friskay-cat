@@ -8,10 +8,10 @@ const Navbar = () => {
     setNav(!nav);
     console.log('Aku kangen Xena');
   }
-  const isNav = nav ? 'slide' : '';
+  const isNav = nav ? 'slide' : {};
   return (
-    <nav>
-      <header className="nav-menu">
+    <nav className="Navbar">
+      <header className="Nav-menu">
         <div className="Wrapper">
           <div className="Logo-Navigation">
             <div className="Logo-Wrapper">

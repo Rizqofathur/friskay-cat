@@ -1,9 +1,9 @@
-nav {
+.Navbar {
   position: relative;
   z-index: 100;
   font-family: Inter, sans-serif;
 }
-header {
+.Nav-menu {
   padding: 1.75em;
   position: relative;
 }
@@ -12,11 +12,14 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.Logo-Wrapper {
+.Image {
   display: flex;
   margin: auto;
   gap: 10px;
   align-items: center;
+}
+.Home-wrapper {
+  height: 54px;
 }
 .line {
   width: 6px;
@@ -33,6 +36,7 @@ header {
 .Menu ul {
   display: flex;
   gap: 2em;
+  list-style: none;
 }
 .Menu ul li a {
   color: rgb(5, 5, 5);
@@ -80,7 +84,7 @@ header {
 
 /* Hamburger Menu Animation */
 @media screen and (max-width: 576px) {
-  header.nav-menu {
+  header.Nav-menu {
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -1,7 +1,8 @@
 :root {
-  --bg-color: rgb(255, 235, 195);
+  --bg-color: #ffebc3;
   --btn-primary: rgb(255, 168, 0);
   --btn-primary-hover: rgb(215, 146, 6);
+  --secondary-color: #e89058;
 }
 body {
   background-color: var(--bg-color);
