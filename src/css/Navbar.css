@@ -6,6 +6,8 @@
 .Nav-menu {
   padding: 1.75em;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 .Wrapper {
   max-width: 1600px;
