@@ -47,3 +47,15 @@
 .Hero-Btn:hover {
   background-color: var(--btn-primary-hover);
 }
+@media screen and (min-width: 900px) {
+  .Hero-text-header {
+    font-weight: bold;
+    font-size: 3em;
+  }
+  .Hero-text-caption {
+    margin-top: 1.75rem;
+    font-weight: 500;
+    font-size: 1.2em;
+    line-height: 150%;
+  }
+}
