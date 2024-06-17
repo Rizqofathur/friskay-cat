@@ -5,7 +5,6 @@
   height: 60dvh;
   overflow-x: hidden;
 }
-
 .Image-Container .Illustration-Wrapper {
   position: relative;
   width: 100%;
@@ -14,7 +13,6 @@
   justify-content: center;
   align-items: center;
 }
-
 .Illustration-Decoration {
   position: absolute;
   width: 60dvh;
@@ -22,7 +20,6 @@
   background-color: white;
   border-radius: 50%;
 }
-
 .Illustration-Image {
   display: flex;
   justify-content: center;
@@ -31,12 +28,21 @@
   z-index: 2;
   left: 10px;
 }
-
 .Illustration-Image img {
   width: 70%;
   height: 70%;
 }
-
+@media screen and (min-width: 1000px) {
+  .Image-Container .Illustration-Wrapper {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    min-height: 60dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* .Image-Container {
   display: flex;
   justify-content: center;
