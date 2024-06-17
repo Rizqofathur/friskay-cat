@@ -1,5 +1,5 @@
 import '../css/Hero.css';
-import bonkers from '../../public/Bonkers.svg';
+import bonkers from '../../public/img/Bonkers.svg';
 import PrimaryButton from './PrimaryButton';
 
 const Hero = () => {

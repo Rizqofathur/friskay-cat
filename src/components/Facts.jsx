@@ -23,7 +23,7 @@ const Facts = () => {
   return (
     <section className="Facts-section">
       <div className="Facts-image">
-        <img src="../../public/cat-bowl.png" alt="cat-in-bowl" className="Facts-img" />
+        <img src="../../public/img/cat-bowl.png" alt="cat-in-bowl" className="Facts-img" />
       </div>
       <div className="Facts-container">
         <div className="Facts-content">

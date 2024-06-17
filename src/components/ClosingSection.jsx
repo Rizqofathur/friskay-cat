@@ -8,7 +8,7 @@ const ClosingSection = () => {
         <div className="Closing-section-content">
           <div className="Closing-section-header">
             <div className="Closing-friskay-wrapper">
-              <img className="Closing-section-friskay" src="../../public/friskay.svg" alt="friskay-text" />
+              <img className="Closing-section-friskay" src="../../public/img/friskay.svg" alt="friskay-text" />
             </div>
             <h1 className="Closing-section-text">Are you ready to go bonkers?</h1>
           </div>
