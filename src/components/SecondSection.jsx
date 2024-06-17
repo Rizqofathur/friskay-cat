@@ -1,4 +1,7 @@
 import '../css/SecondSection.css';
+import catSteps from '../../public/img/decoration/float-element.png';
+import character from '../../public/img/decoration/illustration-2.png';
+
 const SecondSection = () => {
   return (
     <div className="wrapper">
@@ -11,15 +14,15 @@ const SecondSection = () => {
           </h1>
         </div>
         <div className="second-section-float">
-          <img src="../../public/img/float-element.png" alt="cat-steps" />
-          <img src="../../public/img/float-element.png" alt="cat-steps" />
+          <img src={catSteps} alt="cat-steps" />
+          <img src={catSteps} alt="cat-steps" />
         </div>
         <div className="container">
           <div className="image-wrapper">
             <div className="white-eclipse">
               <div className="orange-eclipse">
                 <div className="image-section">
-                  <img src="../../public/img/illustration-2.png" alt="illustration-png" />
+                  <img src={character} alt="illustration-png" />
                 </div>
               </div>
             </div>

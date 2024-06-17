@@ -1,4 +1,5 @@
 import '../css/Facts.css';
+import catBowl from '../../public/img/decoration/cat-bowl.png';
 
 const Facts = () => {
   const facts = [
@@ -23,7 +24,7 @@ const Facts = () => {
   return (
     <section className="Facts-section">
       <div className="Facts-image">
-        <img src="../../public/img/cat-bowl.png" alt="cat-in-bowl" className="Facts-img" />
+        <img src={catBowl} alt="cat-in-bowl" className="Facts-img" />
       </div>
       <div className="Facts-container">
         <div className="Facts-content">

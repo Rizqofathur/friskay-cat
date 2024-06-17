@@ -1,5 +1,5 @@
 import '../css/Navbar.css';
-import logo from '../../public/img/friskay.svg';
+import logo from '../../public/img/logo/friskay.svg';
 import { useState } from 'react';
 
 const Navbar = () => {

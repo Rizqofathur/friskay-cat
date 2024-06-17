@@ -1,11 +1,13 @@
 import '../css/Card.css';
+import quote from '../../public/img/profile/quote.png';
+import profile1 from '../../public/img/profile/profile-1.jpg';
 
 const Card = () => {
   return (
     <div className="Card">
       <div className="Card-container">
         <div className="Card-quote">
-          <img src="../../public/img/quote.png" alt="quote" className="quote-img" />
+          <img src={quote} alt="quote" className="quote-img" />
         </div>
         <div className="Card-inner">
           <p className="Card-text-review">
@@ -14,7 +16,7 @@ const Card = () => {
           </p>
           <div className="Card-profile">
             <div className="Card-profile-image">
-              <img className="Card-img" src="../../public/img/profile-1.jpg" alt="profile-account" />
+              <img className="Card-img" src={profile1} alt="profile-account" />
             </div>
             <div className="Card-profile-Identity">
               <p className="Card-profile-name">Fathurrizqo</p>

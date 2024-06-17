@@ -1,5 +1,5 @@
 import '../css/Illustration.css';
-import illustration from '../../public/img/Illustration.svg';
+import illustration from '../../public/img/decoration/Illustration.svg';
 
 const Illustration = () => {
   return (

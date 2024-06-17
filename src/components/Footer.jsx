@@ -1,11 +1,12 @@
 import '../css/Footer.css';
+import friskayText from '../../public/img/logo/friskay.svg';
 
 const Footer = () => {
   return (
     <footer className="Footer">
       <div className="Footer-wrapper">
         <div className="Footer-logo">
-          <img src="../../public/friskay.svg" alt="Friskay-text" className="Footer-img" />
+          <img src={friskayText} alt="Friskay-text" className="Footer-img" />
         </div>
         <div className="Footer-menu">
           <ul>

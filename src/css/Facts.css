@@ -4,7 +4,7 @@
   justify-content: center;
 }
 .Facts-container {
-  padding: 0 1.2rem;
+  padding: 1.2rem;
   text-align: justify;
 }
 .Facts-image {
@@ -22,8 +22,7 @@
   background-color: var(--secondary-color);
   display: flex;
   justify-content: center;
-  padding-top: 220px;
-  padding-bottom: 80px;
+  padding: 220px 0 160px 0;
 }
 .Facts-content {
   display: flex;
@@ -56,5 +55,18 @@
 @media screen and (min-width: 600px) {
   .Facts-img {
     width: 440px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .Facts-container {
+    display: flex;
+    justify-content: center;
+  }
+  .Facts-content {
+    display: grid;
+    grid-template-columns: repeat(2, 34vw);
+    grid-template-rows: auto auto;
+    grid-gap: 2.8rem;
   }
 }

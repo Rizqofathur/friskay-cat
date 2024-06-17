@@ -8,15 +8,15 @@
   flex-direction: column;
   gap: 14px;
 }
-@media screen and (min-width: 600px) and (max-width: 1000px) {
+@media screen and (min-width: 600px) {
   .cards {
     display: grid;
     grid-template-columns: repeat(2, 380px);
     grid-template-rows: auto auto auto auto;
-    grid-gap: 14px;
+    grid-gap: 1.2rem;
   }
 }
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 1200px) {
   .cards {
     display: grid;
     grid-template-columns: repeat(4, 360px);
