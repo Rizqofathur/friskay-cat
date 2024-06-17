@@ -3,6 +3,10 @@
   flex-direction: column;
   justify-content: center;
 }
+.Facts-container {
+  padding: 0 1.2rem;
+  text-align: justify;
+}
 .Facts-image {
   display: flex;
   justify-content: center;
@@ -41,7 +45,7 @@
 }
 .Fact-header-text {
   font-weight: 900;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 .Fact-caption {
   margin-top: 12px;
