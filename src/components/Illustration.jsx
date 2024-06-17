@@ -10,16 +10,6 @@ const Illustration = () => {
           <img className="Illustration-Svg" src={illustration} alt="Mwah" />
         </div>
       </div>
-
-      {/* <div className="Illustration-Section">
-        <div className="Illustration-Wrapper">
-          <div className="Illustration">
-            <div className="Illustration-Image">
-              <img className="Illustration-Svg" src={illustration} alt="Mwah" />
-            </div>
-          </div>
-        </div>
-      </div> */}
     </section>
   );
 };
