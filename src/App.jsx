@@ -9,7 +9,7 @@ import ClosingSection from './components/ClosingSection';
 import Footer from './components/Footer';
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ overflow: 'hidden' }}>
       <Navbar />
       <Header />
       <main>
